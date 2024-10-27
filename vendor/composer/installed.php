@@ -3,7 +3,7 @@
         'name' => 'bagisto/bagisto',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'e56d6a09f2c32a7055f612dec6395f4ad5dffe53',
+        'reference' => 'dd5fced46c2b2567cc5696b6368b472335da0575',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'bagisto/bagisto' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'e56d6a09f2c32a7055f612dec6395f4ad5dffe53',
+            'reference' => 'dd5fced46c2b2567cc5696b6368b472335da0575',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -848,6 +848,15 @@
             'install_path' => __DIR__ . '/../maximebf/debugbar',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'mercadopago/dx-php' => array(
+            'pretty_version' => '3.0.8',
+            'version' => '3.0.8.0',
+            'reference' => 'b03c3c789c7d4fedfcf7d54cf57993e77c95aabb',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mercadopago/dx-php',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'mobiledetect/mobiledetectlib' => array(
             'pretty_version' => '2.8.45',
